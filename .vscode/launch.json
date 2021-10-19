@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DogTestDrive",
+            "request": "launch",
+            "mainClass": "vn.edu.giadinh.tuan6.DogTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch MayTinhTestDrive",
+            "request": "launch",
+            "mainClass": "vn.edu.giadinh.tuan6.MayTinhTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch cowTestDrive",
+            "request": "launch",
+            "mainClass": "vn.edu.giadinh.tuan5.cowTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
             "name": "Launch testdrive",
             "request": "launch",
             "mainClass": "com.hungtv2008110242.Lab4.testdrive",
