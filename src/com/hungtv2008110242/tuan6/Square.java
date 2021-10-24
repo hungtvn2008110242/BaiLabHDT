@@ -1,13 +1,19 @@
 package com.hungtv2008110242.tuan6;
 
 public class Square {
+    public Square(String string) {
+    }
+
+    public Square() {
+    }
+
     public static void main(String[] args) {
         Square hinhvuong = new Square();
         hinhvuong.xoay();
         hinhvuong.phatAmthanh();
     }
 
-    String amThanh = "Sound Square.AIF ";
+    static String amThanh = "Sound Square.AIF ";
     boolean click = false;
 
     void xoay() {

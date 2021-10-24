@@ -1,19 +1,36 @@
 package com.hungtv2008110242.tuan6;
 
 public class Dog {
-    String color, name, breed;
-    int tuoi;
+    private String color;
+    private String breed;
+    private int age;
+    private int size;
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public Dog() {
+    }
 
     public void bark() {
         System.out.println("Grrr Grrr Grrr !!!");
     }
 
-    Dog(String ten, int year) {
-        name = ten;
-        tuoi = year;
+    Dog(String b, int a, String c) {
+        breed = b;
+        age = a;
+        color = c;
+
     }
 
-    public Dog() {
+    void duoiMeo() {
+        System.out.println("đuổi mèo...");
+
     }
 
     void bark(int numberofBark) {
@@ -22,4 +39,18 @@ public class Dog {
         numberofBark--;
     }
 
+    public void setSize(int s) {
+        // lý luận trong đây
+        // chặn không chấp nhận các giá trị bất hợp lý
+        if (s <= 0) {
+            System.out.println("Cân nặng của chó không hợp lệ!!!");
+        } else {
+            size = s;
+        }
+    }
+
+    public int getSize() {
+        return size;
+
+    }
 }

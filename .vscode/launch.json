@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch intSquareTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan7.intSquareTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShapeTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan7.ShapeTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch DogTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan6.DogTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch Square",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan6.Square",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch Circle",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan6.Circle",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
             "name": "Launch DogTestDrive",
             "request": "launch",
             "mainClass": "vn.edu.giadinh.tuan6.DogTestDrive",

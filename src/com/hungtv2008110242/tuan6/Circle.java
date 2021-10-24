@@ -1,13 +1,16 @@
 package com.hungtv2008110242.tuan6;
 
 public class Circle {
+    public Circle(String string) {
+    }
+
     public static void main(String[] args) {
-        Circle tron = new Circle();
+        Circle tron = new Circle(amThanh);
         tron.xoay();
         tron.phatAmthanh();
     }
 
-    String amThanh = "Sound Circle.AIF ";
+    static String amThanh = "Sound Circle.AIF ";
     boolean click = false;
 
     void xoay() {
@@ -22,5 +25,11 @@ public class Circle {
         } else
             System.out.println("Error!!!");
 
+    }
+
+    public void rotate() {
+    }
+
+    public void playSound() {
     }
 }
