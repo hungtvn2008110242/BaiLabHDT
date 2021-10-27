@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LionTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan7.inheritance.LionTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch LionTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan7.LionTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShapeTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan7.inheritance.ShapeTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
             "name": "Launch intSquareTestDrive",
             "request": "launch",
             "mainClass": "com.hungtv2008110242.tuan7.intSquareTestDrive",
