@@ -1,16 +1,18 @@
 package com.hungtv2008110242.tuan7.inheritance;
 
-public class Circle {
+public class Circle extends Shape {
 
-    Circle() {
+    public Circle() {
     }
 
     public Circle(String s) {
+        super(s);
     }
 
     public void rotate() {
     }
 
+    @Override
     public void playSound() {
     }
 

@@ -4,6 +4,21 @@ public class Shape {
 
     private String sound; // .hif
 
+    public Shape() {
+    }
+
+    public Shape(String s) {
+        sound = s;
+    }
+
+    public String getSound() {
+        return sound;
+    }
+
+    public void setSound(String sound) {
+        this.sound = sound;
+    }
+
     public void rotate() {
         // code xử lý các hình xoay 360
         // giống kim đồng hồ

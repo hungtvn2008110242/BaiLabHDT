@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArrayListDemoProgram",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan8.ArrayListDemoProgram",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyWinDowTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan8.MyWinDowTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch HouseTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan8.compostion.HouseTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch HippoTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan8.HippoTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch WolfTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan8.WolfTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch AnimalTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.tuan7.inheritance.AnimalTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
             "name": "Launch LionTestDrive",
             "request": "launch",
             "mainClass": "com.hungtv2008110242.tuan7.inheritance.LionTestDrive",
