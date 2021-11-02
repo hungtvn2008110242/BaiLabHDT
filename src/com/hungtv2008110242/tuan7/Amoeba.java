@@ -6,7 +6,7 @@ public class Amoeba {
     int x;
     int y;
 
-    Amoeba() {
+    public Amoeba() {
     }
 
     public Amoeba(String s) {

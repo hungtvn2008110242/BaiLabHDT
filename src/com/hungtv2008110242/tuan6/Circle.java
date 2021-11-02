@@ -4,6 +4,9 @@ public class Circle {
     public Circle(String string) {
     }
 
+    public Circle() {
+    }
+
     public static void main(String[] args) {
         Circle tron = new Circle(amThanh);
         tron.xoay();
