@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch HouseTestDrive",
+            "request": "launch",
+            "mainClass": "vn.edu.giadinh.tuan8.compostion.HouseTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrayListDemoProgram",
+            "request": "launch",
+            "mainClass": "vn.edu.giadinh.tuan8.ArrayListDemoProgram",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
             "name": "Launch ArrayListDemoProgram",
             "request": "launch",
             "mainClass": "com.hungtv2008110242.tuan8.ArrayListDemoProgram",
