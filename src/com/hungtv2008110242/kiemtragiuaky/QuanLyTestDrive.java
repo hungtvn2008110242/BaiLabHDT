@@ -3,10 +3,6 @@ package com.hungtv2008110242.kiemtragiuaky;
 public class QuanLyTestDrive {
     public static void main(String[] args) {
         DanhSachQuanLy danhSachQuanLy = new DanhSachQuanLy();
-        Nguoi nguoi = new Nguoi();
-        nguoi.nhapThongTin();
-        nguoi.xuatThongTin();
-        System.out.println("===================");
 
         HocVien hocVien = new HocVien();
         hocVien.setDiemMonHoc1(7);
@@ -22,6 +18,7 @@ public class QuanLyTestDrive {
         khachHang.setDiaChi("123 ĐỐng đa, ba đình");
         khachHang.setTenCongTy("Công Ty TNHH 123");
         khachHang.setTriGiaHoaDon(250000);
+        danhSachQuanLy.them(khachHang);
         System.out.println("===================");
 
         NhanVien nhanVien = new NhanVien();
@@ -30,5 +27,7 @@ public class QuanLyTestDrive {
         nhanVien.setHoTen("Nguyễn Văn A");
         danhSachQuanLy.them(nhanVien);
         System.out.println("===================");
+
+        danhSachQuanLy.inDanhSach();
     }
 }

@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch QuanLyTestDrive",
+            "request": "launch",
+            "mainClass": "com.hungtv2008110242.kiemtragiuaky.QuanLyTestDrive",
+            "projectName": "MyProject_1090a792"
+        },
+        {
+            "type": "java",
             "name": "Launch DanhSachQuanLy",
             "request": "launch",
             "mainClass": "com.hungtv2008110242.kiemtragiuaky.DanhSachQuanLy",
